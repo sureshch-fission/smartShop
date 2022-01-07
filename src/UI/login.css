@@ -1,0 +1,66 @@
+
+
+  
+input {
+  margin: 1.2rem 0;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-group input {
+  margin: 1.1rem 0;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 6rem auto;
+  overflow: hidden;
+  padding: 40px;
+
+  box-shadow: 10px 10px 30px #f1f3f5;
+}
+.form-container h1 {
+  text-align: center;
+}
+.form-container h6 {
+  text-align: center;
+}
+
+.food-1 .btn-1 {
+  padding: 12px 20px;
+  background-color: #fab005;
+  color: #000;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.btn-2 {
+  padding: 12px 25px;
+  color: #e9ecef;
+  background-color: rgb(2, 125, 240);
+  border-radius: 25px;
+  width: 100%;
+}
+.btn-main {
+  padding: 12px 20px;
+  color: #e9ecef;
+  background-color: rgb(2, 125, 240);
+  border-radius: 5px;
+}
+.btn-2:hover {
+  background-color: #119dfa;
+}
