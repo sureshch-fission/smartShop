@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import "./App.css";
 import Login from "./components/loginPage";
-import MainPage from "./MainPage";
+import MainPage from "./screens/MainScreen";
 import ProductDetail from "./screens/productDetailScreen";
 import Cart from "./screens/cartScreen";
 import PlaceOrder from "./screens/PlaceorderScreen";
@@ -14,9 +14,6 @@ import { useSelector } from "react-redux";
 function App() {
 
   const Products = useSelector((state) => state.Products.products);
-  const cartItems = useSelector(state => state.cart.items)
-
-  //const isAuthenticated = useSelector(state => state.userDetails.isAuthenticated)
   const isAuthenticated = JSON.parse(localStorage.getItem('isAuthenticated'));
 
 

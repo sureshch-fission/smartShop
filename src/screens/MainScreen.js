@@ -3,11 +3,11 @@ import { useSelector, useDispatch } from "react-redux";
 import { Col, Row } from "react-bootstrap";
 
 
-import NavBar from "./components/Navbar";
-import ProductsItem from "./screens/productsItemScreen";
-import { productActions } from "./store/productSlice";
-import LoadingSpinner from "./components/LoadingSpinner";
-import Pagination from "./components/pagination";
+import NavBar from "../components/Navbar";
+import ProductsItem from "./productsItemScreen";
+import { productActions } from "../store/productSlice";
+import LoadingSpinner from "../components/LoadingSpinner";
+import Pagination from "../components/pagination";
 
 
 const Products = () => {
